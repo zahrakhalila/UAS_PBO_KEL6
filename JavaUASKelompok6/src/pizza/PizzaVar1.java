@@ -42,9 +42,5 @@ public class PizzaVar1 extends Pizza implements InterfaceBahan{
         double harga = this.modal() + untung;
         return Math.round(harga);
     }
-    
-    @Override
-    public void harga(){
-        System.out.println("Harga " + nama  + " = Rp " + (int)hargaVarian() + " /pcs");
-    } 
+
 }
