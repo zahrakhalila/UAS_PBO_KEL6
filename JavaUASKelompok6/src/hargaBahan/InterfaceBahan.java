@@ -13,5 +13,4 @@ public interface InterfaceBahan {
     double topping();
     double modal();
     double hargaVarian();
-    void harga();
 }

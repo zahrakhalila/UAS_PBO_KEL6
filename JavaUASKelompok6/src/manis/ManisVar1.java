@@ -42,8 +42,4 @@ public class ManisVar1 extends Manis implements InterfaceBahan{
         return Math.round(harga);
     }
     
-    @Override
-    public void harga(){
-        System.out.println("Harga " + nama  + " = Rp " + (int)hargaVarian() + " /pcs");
-    }
 }

@@ -9,6 +9,7 @@ import hargaBahan.HargaDasar;
  * @author WINDOWS 11
  */
 public class AdonanPizza extends HargaDasar implements AdonanRoti{
+    @Override
     public int tepungTerigu(){
         return 1000;
     }
